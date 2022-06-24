@@ -9,7 +9,8 @@ public class TestService {
 
     public void login(String loginId, String password){
 
-
+        System.out.println("loginId = " + loginId);
+        System.out.println("password = " + password);
     }
 
 }
