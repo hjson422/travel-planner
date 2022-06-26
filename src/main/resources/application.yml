@@ -1,9 +1,9 @@
-mybatis:
-  configuration:
-    multiple-result-sets-enabled: false
-    map-underscore-to-camel-case: true
-    call-setters-on-nulls: true
-    jdbc-type-for-null: varchar
-    default-fetch-size: 500
-  mapper-locations:
-    - classpath:mybatis/mapper/*.xml
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://database-1.cgf4a8iqsdpv.ap-northeast-2.rds.amazonaws.com:3306/travel?characterEncoding=UTF-8&useTimezone=true&serverTimezone=Asia/Seoul
+    username: admin
+    password: 123456789
+mybatis: # type을 쉽게 쓰기 위해서 dto 패키지를 type-aliaes에 설정
+  type-aliases-package: Jeju.travelplanner.dto
+  mapper-locations: mybatis/mapper/*.xml

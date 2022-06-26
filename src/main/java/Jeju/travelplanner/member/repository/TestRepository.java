@@ -1,4 +1,4 @@
-package Jeju.travelplanner.repository;
+package Jeju.travelplanner.member.repository;
 
 import org.springframework.stereotype.Repository;
 

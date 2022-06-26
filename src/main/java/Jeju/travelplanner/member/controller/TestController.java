@@ -1,7 +1,7 @@
-package Jeju.travelplanner.controller;
+package Jeju.travelplanner.member.controller;
 
 
-import Jeju.travelplanner.service.TestService;
+import Jeju.travelplanner.member.service.TestService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
